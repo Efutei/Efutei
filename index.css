@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  background-color: #904;
+  margin: 0;
+  padding: 0;
+}
+
+.myIcon {
+  animation: App-logo-spin infinite 20s linear;
+  height: 200px;
+}
+
+.Top {
+  background-color: #224;
+  padding: 20px;
+  color: #DDF;
+}
+
+.Page-title {
+  font-size: 3.0em;
+  padding: 20px;
+}
+
+.Profile {
+  font-size: 2.0em;
+  padding: 20px;
+  display: inline-block;
+}
+
+.Profile-link {
+  color: #DDF;
+}
+
+.GameSpace {
+  background-color: #DDF;
+}
+.GameSpace-title {
+  font-size: 2.0em;
+  font-family: 'Poiret One', cursive;
+  padding: 20px;
+  color: #224;
+}
+
+.Games {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: flex-start;
+}
+
+.Game {
+  background-color: #335;
+  border: 5px #224 solid;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.Game-logo {
+  height: 150px;
+  width: 150px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
