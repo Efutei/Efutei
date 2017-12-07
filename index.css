@@ -58,6 +58,7 @@ body {
   border: 5px #224 solid;
   border-radius: 30px;
   margin: 20px;
+  box-shadow: 5px 5px;
 }
 
 .Product-logo {
